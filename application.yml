@@ -6,3 +6,9 @@ eureka:
       defaultZone: http://localhost:9095/eureka
   instance:
     prefer-ip-address: true
+
+Spring:
+  datasource:
+    username: root
+    password: root@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
